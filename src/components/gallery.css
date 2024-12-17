@@ -1,0 +1,19 @@
+.gallerycontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .galleryDiv{
+    width: 200px;
+    cursor: pointer;
+  }
+  .galleryDiv img{
+    max-width: 100%;
+  }
+  .galleryDiv img:hover{
+    transform: scale(1.02);
+  }
